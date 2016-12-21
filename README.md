@@ -2,11 +2,10 @@
 A simple implementation of learning to rank on dataset lightFM. Actually, there is a keras version here: https://github.com/maciejkula/triplet_recommendations_keras. But some APIs are not compatible with keras of current version (e.g. merge_mode='join'). 
 
 The following performance is measure with ROC AOC SCORE
-Using TensorFlow backend.
-943
-(64, 1)
 
-	validation roc_auc_score:0.500467073101
+Using TensorFlow backend.
+
+validation roc_auc_score:0.500467073101
 	
  0/100, 778/779. loss:0.587008476257	validation roc_auc_score:0.702677984692
  
