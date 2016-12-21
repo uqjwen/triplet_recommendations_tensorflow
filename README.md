@@ -45,4 +45,4 @@ validation roc_auc_score:0.500467073101
  
  18/100, 778/779. loss:0.12448710203258 validation roc_auc_score:0.863374504944
 
-greatly outperform the performance with 'bpr' loss in the official site here: http://lyst.github.io/lightfm/docs/examples/movielens_implicit.html. 
+Significantly outperform the performance with 'bpr' loss in the official site here: http://lyst.github.io/lightfm/docs/examples/movielens_implicit.html. 
