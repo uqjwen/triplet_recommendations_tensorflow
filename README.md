@@ -46,3 +46,29 @@ validation roc_auc_score:0.500467073101
  18/100, 778/779. loss:0.12448710203258 validation roc_auc_score:0.863374504944
 
 Significantly outperform the performance with 'bpr' loss in the official site here: http://lyst.github.io/lightfm/docs/examples/movielens_implicit.html. 
+
+In my_triplet_feats.py, we consider genre features of the movies to improvement the performance. Actually we are able to improve the roc auc socre to 89%, and the results are listed as follows:
+
+ [!] Load parameters success!!!
+ 
+	validation roc_auc_score:0.890481743624
+	
+ 0/100, 778/779. loss:0.05905286222782  validation roc_auc_score:0.892570015951
+ 
+ 1/100, 778/779. loss:0.16974817216418  validation roc_auc_score:0.890205940637
+ 
+ 2/100, 778/779. loss:0.10492754727665  validation roc_auc_score:0.887460079443
+ 
+ 3/100, 778/779. loss:0.04295096173887  validation roc_auc_score:0.892610324532
+ 
+ 4/100, 778/779. loss:0.14503671228986  validation roc_auc_score:0.890672407806
+ 
+ 5/100, 778/779. loss:0.02661069668831  validation roc_auc_score:0.885403041236
+ 
+ 6/100, 778/779. loss:0.16777089238218  validation roc_auc_score:0.885388838798
+ 
+ 7/100, 778/779. loss:0.14799317717676  validation roc_auc_score:0.893298911301
+ 
+ 8/100, 778/779. loss:0.06235758960257  validation roc_auc_score:0.89143136914
+ 
+ 9/100, 778/779. loss:0.21639181673527  validation roc_auc_score:0.891467325608
